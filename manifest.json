@@ -1,0 +1,27 @@
+{
+    "name": "WHS Now Powerschool",
+    "author": "Luke Ballmer",
+    "description": "This extension for WHS students will allow you to save the correct color for each of your classes and will style your Powerschool schedule accordingly.",
+    "version": "1.0",
+    "permissions": ["storage", "activeTab", "https://ajax.googleapis.com/" ,"*://*/*"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "manifest_version": 2
+}
